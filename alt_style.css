@@ -1,0 +1,154 @@
+html,body{
+	margin-bottom: 0;
+	padding: 0;
+	font-family: 'Average Sans', sans-serif;
+	font-size: 16px;
+	background: black;
+}
+
+h1{
+    color: white;
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #996666;
+    text-decoration: none;
+}
+
+button{
+	font-family: 'Average Sans', sans-serif;
+	width: 25%;
+	max-width: auto;
+	background-color: transparent;
+	color: black;
+	border: none;
+	font-size: 24px;
+	float: left;
+	display: block;
+}
+
+.header-nav{
+	color: white;
+	visibility: hidden;
+}
+
+.overlay{
+	position: absolute;
+	width: 70%;
+	height: 60%;
+	max-width: 1000px;
+	max-height: 200px;
+    display: block;
+    visibility: hidden;
+    color: white;
+}
+
+.main-container{
+	position: relative;
+	margin: 5% auto;
+	width: 70%;
+	height: 20%;
+	max-width: 1000px;
+	max-height: 200px;
+	padding: 150px;
+	background: url(curtains.gif);
+}
+
+#cast-text{
+	margin: -13%;
+	margin-right: 25%;
+	margin-left: 25%;
+	width: 25%;
+	height: 600%;
+	max-width: 1000px;
+	max-height: 450px;
+	background: #000000;
+	text-align: center;
+}
+
+#bts-text{
+	margin: -13%;
+	margin-right: 25%;
+	margin-left: 25%;
+	width: 25%;
+	height: 600%;
+	max-width: 1000px;
+	max-height: 450px;
+	background: #000000;
+	text-align: center;
+}
+
+#script-text{
+	margin: -13%;
+	margin-right: 25%;
+	margin-left: 25%;
+	width: 25%;
+	height: 600%;
+	max-width: 1000px;
+	max-height: 450px;
+	background: #000000;
+	text-align: center;
+}
+
+#video-text{
+	margin: -13%;
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 60%;
+	height: 600%;
+	max-width: 1000px;
+	max-height: 450px;
+	background: #000000;
+}
+
+.header-container{
+	text-align: center;
+	font-size: 4em;
+	margin-bottom: 5px;
+}
+
+.button-container{
+	padding: 3px;
+	text-align: center;
+	display: block;
+}
+
+.text-container{
+	text-align: center;
+	display: block;
+	color: #272727;
+}
+
+.button-1:hover{
+	color: #996666;
+	border: none;
+}
+
+.button-2:hover{
+	color: #996666;
+	border: none;
+}
+
+.button-3:hover{
+	color: #996666;
+	border: none;
+}
+
+.button-4:hover{
+	/*opacity: 0.3;*/
+	color: #996666;
+	border: none;
+}

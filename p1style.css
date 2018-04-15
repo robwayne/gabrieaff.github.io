@@ -46,10 +46,15 @@ button{
 
 .overlay{
 	position: absolute;
-	width: 70%;
-	height: 60%;
+	width: 500px;
+	top: 0;
+	bottom: 0;
+	left: 36%;
+	right: 36%;
+	width:	28%;
+/*	height: 60%;
 	max-width: 1000px;
-	max-height: 200px;
+	max-height: 200px;*/
     display: block;
     visibility: hidden;
     color: white;
@@ -67,51 +72,55 @@ button{
 }
 
 #cast-text{
-	margin: -13%;
+/*	margin: -13%;
 	margin-right: 25%;
 	margin-left: 25%;
 	width: 25%;
 	height: 600%;
 	max-width: 1000px;
-	max-height: 450px;
+	max-height: 450px;*/
 	background: #000000;
 	text-align: center;
+	padding-top: 100px;
 }
 
 #bts-text{
-	margin: -13%;
+/*	margin: -13%;
 	margin-right: 25%;
 	margin-left: 25%;
 	width: 25%;
 	height: 600%;
 	max-width: 1000px;
-	max-height: 450px;
+	max-height: 450px;*/
 	background: #000000;
 	text-align: center;
+	padding-top: 100px;
 }
 
 #script-text{
-	margin: -13%;
+/*	margin: -13%;
 	margin-right: 25%;
 	margin-left: 25%;
 	width: 25%;
 	height: 600%;
 	max-width: 1000px;
-	max-height: 450px;
+	max-height: 450px;*/
 	background: #000000;
 	text-align: center;
+	padding-top: 100px;
 }
 
 #video-text{
 	margin: -13%;
-	text-align: center;
-	margin-right: 10%;
-	margin-left: 10%;
-	width: 60%;
+	margin-right: 25%;
+	margin-left: 25%;
+	width: 25%;
 	height: 600%;
 	max-width: 1000px;
 	max-height: 450px;
 	background: #000000;
+	text-align: center;
+	padding-top: 100px;
 }
 
 .header-container{
@@ -130,6 +139,8 @@ button{
 	text-align: center;
 	display: block;
 	color: #272727;
+	position: static;
+	z-index: 10;
 }
 
 .button-1:hover{
